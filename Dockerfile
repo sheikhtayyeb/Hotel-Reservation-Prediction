@@ -14,6 +14,7 @@ COPY . .
 
 RUN pip install --no-cache-dir -e .
 
+RUN pip install --upgrade --force-reinstall scikit-learn==1.5.2 imbalanced-learn==0.12.4
 RUN python pipeline/training_pipeline.py
 
 EXPOSE 5000
