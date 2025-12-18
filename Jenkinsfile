@@ -65,7 +65,7 @@ pipeline{
                                 --image=gcr.io/${GCP_PROJECT}/hotel-reservation-prediction:latest \
                                 --platform=managed \
                                 --region=us-central1 \
-                                --allow=unauthenticated
+                                --allow-unauthenticated
                         '''
                         }
                     }
