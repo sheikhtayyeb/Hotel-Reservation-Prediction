@@ -1,9 +1,9 @@
 pandas
 numpy
 google-cloud-storage
-scikit-learn
 pyyaml
-imbalanced-learn
+scikit-learn==1.5.2
+imbalanced-learn==0.12.4
 lightgbm
 mlflow
 flask
